@@ -45,9 +45,10 @@ Command:
 
 ## コンパイル方法
 
-````makefile```を準備してあるので```make```コマンドでコンパイルできる．
+```makefile```を準備してあるので
+```make```コマンドでコンパイルできる．
 
 ```bash
 $ make
 cc -Wall -std=c99 -o myshell myshell.c
-````
+```
