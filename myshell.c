@@ -1,5 +1,5 @@
 //
-// myshell.c : 簡易UNIXシェル 
+// myshell.c : 簡易UNIXシェル
 //
 #include <stdio.h>                              // perror() のため
 #include <stdlib.h>                             // eixt() のため
