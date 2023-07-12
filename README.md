@@ -26,21 +26,26 @@
 
 ## 実行例
 
-```bash
-$ ./myshell
-Command: printenv LC_TIME
+```zsh
+% ./myshell       
+Command: printenv LC_TIME             　# 存在しない
 Command: date
-2020年 8月26日 水曜日 08時33分43秒 JST
-Command: setenv LC_TIME C
+2023年 7月12日 水曜日 09時49分12秒 JST
+Command: setenv LC_TIME C               # 作成
 Command: printenv LC_TIME
 C
 Command: date
-Wed Aug 26 08:34:03 JST 2020
-Command: unsetenv LC_TIME   
+Wed Jul 12 09:49:24 JST 2023
+Command: setenv LC_TIME ko_KR.UTF-8     # 上書き
+Command: printenv LC_TIME
+ko_KR.UTF-8
+Command: date
+2023년 7월 12일 수요일 09시 49분 42초 JST
+Command: unsetenv LC_TIME               # 削除
 Command: printenv LC_TIME
 Command: date
-2020年 8月26日 水曜日 08時34分21秒 JST
-Command:
+2023年 7月12日 水曜日 09時50分20秒 JST
+Command: 
 ```
 
 ## コンパイル方法
