@@ -2,7 +2,7 @@
 // myshell.c : 簡易UNIXシェル
 //
 #include <stdio.h>                              // perror() のため
-#include <stdlib.h>                             // eixt() のため
+#include <stdlib.h>                             // exit() のため
 #include <string.h>                             // strcmp(), strchr() のため
 #include <unistd.h>                             // fork(),exec(),close()のため
 #include <sys/wait.h>                           // wait() のため
