@@ -14,7 +14,7 @@
 2. 環境変数の削除機能<br>
   文法：`unsetenv 名前`<br>
   説明：`名前`の環境変数を削除する．<br>
-  使用例：`Command: unsetenv LC_TIME C`
+  使用例：`Command: unsetenv LC_TIME`
 
 3. プログラムの作成<br>
   レポジトリをクローンし`myshell.c`を編集してプログラムを完成する．<br>
